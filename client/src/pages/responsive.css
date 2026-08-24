@@ -1,0 +1,2 @@
+/* Quiet Analog Atelier: desktop keeps one instrument rail; the compact mobile navigation only appears below the desktop breakpoint. */
+.bottom-nav{display:none}@media(max-width:1023px){.bottom-nav{display:flex}}
