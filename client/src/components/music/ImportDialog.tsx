@@ -29,7 +29,7 @@ export function ImportDialog({ open, onClose }: { open: boolean; onClose: () => 
       setSummary(result);
       if (result.cancelled) toast.message("Import stopped. Files already catalogued were kept.");
       else if (result.failed.length) toast.warning(`${result.imported} imported; ${result.failed.length} need attention.`);
-      else toast.success(`${result.imported} ${result.imported === 1 ? "track" : "tracks"} added to your library.`);
+      else toast.success(`${result.imported} ${result.imported === 1 ? "track" : "tracks"} added to your library.`, { action: { label: "View library", onClick: () => {} } });
     } catch { toast.error("The import could not be completed. Try smaller batches or another file."); }
     finally { setProgress(undefined); abortRef.current = null; }
   };

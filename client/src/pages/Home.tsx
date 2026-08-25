@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useMemo, useState } from "react";
+﻿import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { useLocation } from "wouter";
 import { motion } from "framer-motion";
 import { BarChart3, ChevronRight, CirclePlus, Clock3, Command, Disc3, Download, FolderPlus, Heart, House, LibraryBig, ListMusic, Moon, Music2, Plus, Search, Settings2, Share, Sun, UserRound } from "lucide-react";
@@ -65,7 +65,7 @@ export default function Home() {
     setPlaylistOpen(false);
     setSection("playlists");
     setSelectedPlaylistId(playlist.id);
-    toast.success(`“${name}” is ready.`);
+    toast.success(`“${name}” is ready.`, { action: { label: "Open playlist", onClick: () => { setSection("playlists"); setSelectedPlaylistId(playlist.id); } } });
   };
 
   useEffect(() => {

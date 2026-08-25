@@ -14,7 +14,7 @@
   .player-bar { height: 82px; padding: 10px 14px calc(10px + env(safe-area-inset-bottom)); touch-action: pan-y; }
   .player-mobile-progress { top: 0; height: 5px; background: rgba(255,255,255,.09); }
   .player-mobile-progress div { background: linear-gradient(90deg,#8cb9a5,#c3decf); box-shadow: 0 0 12px rgba(140,185,165,.5); }
-  .player-track { min-height: 52px; touch-action: pan-y; -webkit-tap-highlight-color: transparent; user-select: none; }
+  .player-track { min-height: 52px; touch-action: none; -webkit-tap-highlight-color: transparent; user-select: none; }
   .player-track .size-11 { width: 48px; height: 48px; border-radius: 13px; }
   .player-primary { width: 48px; height: 48px; }
   .bottom-nav { bottom: calc(82px + env(safe-area-inset-bottom)); height: 66px; padding: 5px 9px; }
