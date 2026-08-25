@@ -6,11 +6,11 @@
   "author": "APV Labs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alejandroperezitsur/MiMusik-Web.git"
+    "url": "git+https://github.com/Alejandroperezitsur/MiMusik-Player.git"
   },
-  "homepage": "https://github.com/Alejandroperezitsur/MiMusik-Web#readme",
+  "homepage": "https://github.com/Alejandroperezitsur/MiMusik-Player#readme",
   "bugs": {
-    "url": "https://github.com/Alejandroperezitsur/MiMusik-Web/issues"
+    "url": "https://github.com/Alejandroperezitsur/MiMusik-Player/issues"
   },
   "scripts": {
     "dev": "vite --host",
