@@ -11,7 +11,7 @@
   .mobile-header-actions .top-icon, .mobile-header-actions .search-trigger { width: 42px; height: 42px; margin: 0; border-radius: 12px; }
   .mobile-header-actions .search-trigger { border-color: transparent; background: transparent; color: #dce6e0; }
   .mobile-header-actions .search-trigger:active, .mobile-header-actions .top-icon:active { transform: scale(.94); background: rgba(140,185,165,.13); }
-  .player-bar { height: 82px; padding: 10px 14px calc(10px + env(safe-area-inset-bottom)); touch-action: pan-y; }
+  .player-bar { height: 82px; padding: 10px 14px max(12px, env(safe-area-inset-bottom, 12px)); touch-action: pan-y; }
   .player-mobile-progress { top: 0; height: 5px; background: rgba(255,255,255,.09); }
   .player-mobile-progress div { background: linear-gradient(90deg,#8cb9a5,#c3decf); box-shadow: 0 0 12px rgba(140,185,165,.5); }
   .player-track { min-height: 52px; touch-action: none; -webkit-tap-highlight-color: transparent; user-select: none; }

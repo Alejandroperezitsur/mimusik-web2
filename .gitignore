@@ -108,4 +108,7 @@ temp/
 # Webdev artifacts (checkpoint zips, migrations, etc.)
 .webdev/
 
+# Stray files
+z1.jpg
+z2.jpg
 
